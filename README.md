@@ -13,9 +13,11 @@ In this paper, we introduced (1) a curated dataset, REC-Data, for citations and 
 Our curated citations and explanation fine-tuning data is provided as `REC_data.zip`, which contains 24,081 (prompt, completion) pairs. Note that the full training data of REC-12B and REC-70B additionally included [HelpSteer2](https://huggingface.co/datasets/nvidia/HelpSteer2), [Skywork](https://huggingface.co/datasets/Skywork/Skywork-Reward-Preference-80K-v0.1), [OffsetBias](https://huggingface.co/datasets/NCSOFT/offsetbias), and [Code Preference](https://huggingface.co/datasets/Vezora/Code-Preference-Pairs). The additional data can be downloaded at their own websites.
 
 ## Model training
-The SFT trainer scripts for both REC-12B and REC-70B can be found at the `training` folder. Please put the unzipped REC_data at the correct path as you specify in the file, and modify the `output_dir` to be where you wish the trained model to be saved.
+If you wish to start the training from scratch -- the SFT trainer scripts for both REC-12B and REC-70B can be found at the `training` folder. Please put the unzipped REC_data at the correct path as you specify in the file, and modify the `output_dir` to be where you wish the trained model to be saved.
 
-For the trained REC-12B and REC-70B, you can download them from [insert hf links].
+If you wish to download the trained REC-12B and REC-70B, they are available through these links:
+- [insert hf link]
+- [insert hf link]
 
 ## Citation
 [insert Arxiv bib]
