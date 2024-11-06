@@ -1,6 +1,6 @@
 # Rate, Explain and Cite (REC): Enhanced Explanation and Attribution in Automatic Evaluation by Large Language Models
 
-This repository contains the code and data for paper [**R**ate, **E**xplain and **C**ite (REC): Enhanced Explanation and Attribution in Automatic Evaluation by Large Language Models]().
+This repository contains the code and data for paper [**R**ate, **E**xplain and **C**ite (REC): Enhanced Explanation and Attribution in Automatic Evaluation by Large Language Models](https://arxiv.org/pdf/2411.02448).
 In this paper, we introduced (1) a curated dataset, REC-Data, for citations and explanations generation fine-tuning, which is the first public dataset containing both content quality citations and RAG citations. (2) A novel general-purpose LLM autoevaluator that comes in two sizes: 12B and 70B, that can generate better quality Rating, Explanation and Citations (REC), with little to no trade-off in general instruction task performance evaluated on various public benchmark datasets, including RewardBench, LLM-AggreFact, and CoBBLEr.
 
 ## RAG citations vs Content quality citations
@@ -20,4 +20,14 @@ If you wish to download the trained REC-12B and REC-70B, they are available thro
 - [REC-70B](https://huggingface.co/crm-ai/REC-Llama3.1-70B)
 
 ## Citation
-[insert Arxiv bib]
+```bash
+@misc{hsu2024rateexplainciterec,
+      title={Rate, Explain and Cite (REC): Enhanced Explanation and Attribution in Automatic Evaluation by Large Language Models}, 
+      author={Aliyah R. Hsu and James Zhu and Zhichao Wang and Bin Bi and Shubham Mehrotra and Shiva K. Pentyala and Katherine Tan and Xiang-Bo Mao and Roshanak Omrani and Sougata Chaudhuri and Regunathan Radhakrishnan and Sitaram Asur and Claire Na Cheng and Bin Yu},
+      year={2024},
+      eprint={2411.02448},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2411.02448}, 
+}
+```
